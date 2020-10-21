@@ -1,0 +1,54 @@
+.grid{
+    width: 50%;
+    height: 791px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid black;
+    background-color:#2bc0e2;
+}
+.row{
+    display: inline-block;
+    width: 100%;
+    height:16.66%;
+  
+
+}
+
+.col{
+    display: inline-block;
+    width: 1%;
+    border-radius: 50%;
+    border: 5px solid black;
+    padding:6%;
+    background-color: white;
+    cursor: pointer;
+
+
+
+}
+/* .cell{
+  
+    width: 8.28%;
+    border: 1px solid blue;
+    border-radius: 62%;
+    cursor: pointer;
+    
+} */
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 80px;
+    font-style: italic;
+}
+
+body{
+    background-color: darkgrey;
+}
